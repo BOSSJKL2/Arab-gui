@@ -1,0 +1,2038 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Jumpscare = Instance.new("TextButton")
+local Particles = Instance.new("TextButton")
+local Sky = Instance.new("TextButton")
+local Decal = Instance.new("TextButton")
+local Hint = Instance.new("TextButton")
+local Message = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local Saudify = Instance.new("TextButton")
+local MLGTheme = Instance.new("TextButton")
+local R6 = Instance.new("TextButton")
+local Popup = Instance.new("TextButton")
+local Kennyfy = Instance.new("TextButton")
+local CafeMusic = Instance.new("TextButton")
+local Crykiddify = Instance.new("TextButton")
+local K00pkiddRealm = Instance.new("TextButton")
+local K00pguiv6op = Instance.new("TextButton")
+local Antibanantilevae = Instance.new("TextButton")
+local MeshifyColorLooped = Instance.new("TextButton")
+local Alexnewtronify = Instance.new("TextButton")
+local KickAll = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local Enstriov2 = Instance.new("TextButton")
+local k00pguiv6 = Instance.new("TextButton")
+local Enstrioguiv3 = Instance.new("TextButton")
+local GroveGuiV3 = Instance.new("TextButton")
+local KickGui = Instance.new("TextButton")
+local TeamFatGui = Instance.new("TextButton")
+local c00lkiddguiv2 = Instance.new("TextButton")
+local UTG = Instance.new("TextButton")
+local fakenootnootscript = Instance.new("TextButton")
+local Realnootnootscript = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local InnaproriateAUDIo = Instance.new("TextButton")
+local Phonk = Instance.new("TextButton")
+local Phonk2 = Instance.new("TextButton")
+local NootNootSound = Instance.new("TextButton")
+local KillAll = Instance.new("TextButton")
+local Arabmsuc = Instance.new("TextButton")
+local BossJKLOsTheem = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(108, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0.209944755, 0, 0.220883533, 0)
+Frame.Size = UDim2.new(0, 364, 0, 304)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(108, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 5
+TextLabel.Size = UDim2.new(0, 364, 0, 26)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "BossJKLO's Arab Gui"
+TextLabel.TextColor3 = Color3.fromRGB(252, 252, 252)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(108, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 3
+TextLabel_2.Position = UDim2.new(0, 0, 0.911184192, 0)
+TextLabel_2.Size = UDim2.new(0, 364, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Made By BossJKLO"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.105263159, 0)
+ScrollingFrame.Size = UDim2.new(0, 364, 0, 245)
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.225274727, 0, 0.0894477069, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+Jumpscare.Name = "Jumpscare"
+Jumpscare.Parent = TextLabel_3
+Jumpscare.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Jumpscare.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Jumpscare.BorderSizePixel = 5
+Jumpscare.Position = UDim2.new(-0.340769202, 0, -0.173846126, 0)
+Jumpscare.Size = UDim2.new(0, 98, 0, 23)
+Jumpscare.Font = Enum.Font.SourceSans
+Jumpscare.Text = "Jumpscare"
+Jumpscare.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jumpscare.TextScaled = true
+Jumpscare.TextSize = 14.000
+Jumpscare.TextWrapped = true
+
+Particles.Name = "Particles"
+Particles.Parent = TextLabel_3
+Particles.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Particles.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Particles.BorderSizePixel = 5
+Particles.Position = UDim2.new(0.829121113, 0, -0.974400043, 0)
+Particles.Size = UDim2.new(0, 98, 0, 23)
+Particles.Font = Enum.Font.SourceSans
+Particles.Text = "Particles"
+Particles.TextColor3 = Color3.fromRGB(255, 255, 255)
+Particles.TextScaled = true
+Particles.TextSize = 14.000
+Particles.TextWrapped = true
+
+Sky.Name = "Sky"
+Sky.Parent = TextLabel_3
+Sky.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Sky.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Sky.BorderSizePixel = 5
+Sky.Position = UDim2.new(0.252692252, 0, -0.971761763, 0)
+Sky.Size = UDim2.new(0, 98, 0, 23)
+Sky.Font = Enum.Font.SourceSans
+Sky.Text = "Sky"
+Sky.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sky.TextScaled = true
+Sky.TextSize = 14.000
+Sky.TextWrapped = true
+
+Decal.Name = "Decal"
+Decal.Parent = TextLabel_3
+Decal.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Decal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Decal.BorderSizePixel = 5
+Decal.Position = UDim2.new(-0.340769202, 0, -0.955463231, 0)
+Decal.Size = UDim2.new(0, 98, 0, 23)
+Decal.Font = Enum.Font.SourceSans
+Decal.Text = "Decal"
+Decal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Decal.TextScaled = true
+Decal.TextSize = 14.000
+Decal.TextWrapped = true
+
+Hint.Name = "Hint"
+Hint.Parent = TextLabel_3
+Hint.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Hint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hint.BorderSizePixel = 5
+Hint.Position = UDim2.new(0.249230802, 0, -0.173846126, 0)
+Hint.Size = UDim2.new(0, 98, 0, 23)
+Hint.Font = Enum.Font.SourceSans
+Hint.Text = "Hint"
+Hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hint.TextScaled = true
+Hint.TextSize = 14.000
+Hint.TextWrapped = true
+
+Message.Name = "Message"
+Message.Parent = TextLabel_3
+Message.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Message.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Message.BorderSizePixel = 5
+Message.Position = UDim2.new(0.824230969, 0, -0.173846126, 0)
+Message.Size = UDim2.new(0, 98, 0, 23)
+Message.Font = Enum.Font.SourceSans
+Message.Text = "Message"
+Message.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message.TextScaled = true
+Message.TextSize = 14.000
+Message.TextWrapped = true
+
+Speed.Name = "Speed"
+Speed.Parent = TextLabel_3
+Speed.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 5
+Speed.Position = UDim2.new(-0.345769048, 0, 0.566153884, 0)
+Speed.Size = UDim2.new(0, 98, 0, 23)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = TextLabel_3
+_666.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+_666.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_666.BorderSizePixel = 5
+_666.Position = UDim2.new(0.254230946, 0, 0.566153884, 0)
+_666.Size = UDim2.new(0, 98, 0, 23)
+_666.Font = Enum.Font.SourceSans
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(255, 255, 255)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+Saudify.Name = "Saudify"
+Saudify.Parent = TextLabel_3
+Saudify.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Saudify.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Saudify.BorderSizePixel = 5
+Saudify.Position = UDim2.new(0.824230969, 0, 0.566153884, 0)
+Saudify.Size = UDim2.new(0, 98, 0, 23)
+Saudify.Font = Enum.Font.SourceSans
+Saudify.Text = "Saudify"
+Saudify.TextColor3 = Color3.fromRGB(255, 255, 255)
+Saudify.TextScaled = true
+Saudify.TextSize = 14.000
+Saudify.TextWrapped = true
+
+MLGTheme.Name = "MLG Theme"
+MLGTheme.Parent = TextLabel_3
+MLGTheme.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+MLGTheme.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MLGTheme.BorderSizePixel = 5
+MLGTheme.Position = UDim2.new(-0.345769048, 0, 1.36615384, 0)
+MLGTheme.Size = UDim2.new(0, 98, 0, 23)
+MLGTheme.Font = Enum.Font.SourceSans
+MLGTheme.Text = "idk music"
+MLGTheme.TextColor3 = Color3.fromRGB(255, 255, 255)
+MLGTheme.TextScaled = true
+MLGTheme.TextSize = 14.000
+MLGTheme.TextWrapped = true
+
+R6.Name = "R6"
+R6.Parent = TextLabel_3
+R6.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+R6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+R6.BorderSizePixel = 5
+R6.Position = UDim2.new(0.254230946, 0, 1.36615384, 0)
+R6.Size = UDim2.new(0, 98, 0, 23)
+R6.Font = Enum.Font.SourceSans
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(255, 255, 255)
+R6.TextScaled = true
+R6.TextSize = 14.000
+R6.TextWrapped = true
+
+Popup.Name = "Popup"
+Popup.Parent = TextLabel_3
+Popup.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Popup.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Popup.BorderSizePixel = 5
+Popup.Position = UDim2.new(0.824230969, 0, 1.36615384, 0)
+Popup.Size = UDim2.new(0, 98, 0, 23)
+Popup.Font = Enum.Font.SourceSans
+Popup.Text = "Popup"
+Popup.TextColor3 = Color3.fromRGB(255, 255, 255)
+Popup.TextScaled = true
+Popup.TextSize = 14.000
+Popup.TextWrapped = true
+
+Kennyfy.Name = "Kennyfy"
+Kennyfy.Parent = TextLabel_3
+Kennyfy.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Kennyfy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Kennyfy.BorderSizePixel = 5
+Kennyfy.Position = UDim2.new(-0.345769048, 0, 2.08615398, 0)
+Kennyfy.Size = UDim2.new(0, 98, 0, 23)
+Kennyfy.Font = Enum.Font.SourceSans
+Kennyfy.Text = "Kennyfy"
+Kennyfy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kennyfy.TextScaled = true
+Kennyfy.TextSize = 14.000
+Kennyfy.TextWrapped = true
+
+CafeMusic.Name = "Cafe Music"
+CafeMusic.Parent = TextLabel_3
+CafeMusic.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+CafeMusic.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CafeMusic.BorderSizePixel = 5
+CafeMusic.Position = UDim2.new(-0.345769048, 0, 10.3461533, 0)
+CafeMusic.Size = UDim2.new(0, 331, 0, 23)
+CafeMusic.Font = Enum.Font.SourceSans
+CafeMusic.Text = "Cafe Music"
+CafeMusic.TextColor3 = Color3.fromRGB(255, 255, 255)
+CafeMusic.TextScaled = true
+CafeMusic.TextSize = 14.000
+CafeMusic.TextWrapped = true
+
+Crykiddify.Name = "Crykiddify"
+Crykiddify.Parent = TextLabel_3
+Crykiddify.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Crykiddify.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Crykiddify.BorderSizePixel = 5
+Crykiddify.Position = UDim2.new(0.824230969, 0, 2.08615398, 0)
+Crykiddify.Size = UDim2.new(0, 98, 0, 23)
+Crykiddify.Font = Enum.Font.SourceSans
+Crykiddify.Text = "Crykiddify"
+Crykiddify.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crykiddify.TextScaled = true
+Crykiddify.TextSize = 14.000
+Crykiddify.TextWrapped = true
+
+K00pkiddRealm.Name = "K00pkidd Realm"
+K00pkiddRealm.Parent = TextLabel_3
+K00pkiddRealm.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+K00pkiddRealm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+K00pkiddRealm.BorderSizePixel = 5
+K00pkiddRealm.Position = UDim2.new(-0.345769048, 0, 2.82615376, 0)
+K00pkiddRealm.Size = UDim2.new(0, 98, 0, 23)
+K00pkiddRealm.Font = Enum.Font.SourceSans
+K00pkiddRealm.Text = "K00pkidds Realm"
+K00pkiddRealm.TextColor3 = Color3.fromRGB(255, 255, 255)
+K00pkiddRealm.TextScaled = true
+K00pkiddRealm.TextSize = 14.000
+K00pkiddRealm.TextWrapped = true
+
+K00pguiv6op.Name = "K00pgui v6 op"
+K00pguiv6op.Parent = TextLabel_3
+K00pguiv6op.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+K00pguiv6op.BorderColor3 = Color3.fromRGB(0, 0, 0)
+K00pguiv6op.BorderSizePixel = 5
+K00pguiv6op.Position = UDim2.new(0.244230956, 0, 2.82615376, 0)
+K00pguiv6op.Size = UDim2.new(0, 98, 0, 23)
+K00pguiv6op.Font = Enum.Font.SourceSans
+K00pguiv6op.Text = "k00pgui v6 OP"
+K00pguiv6op.TextColor3 = Color3.fromRGB(255, 255, 255)
+K00pguiv6op.TextScaled = true
+K00pguiv6op.TextSize = 14.000
+K00pguiv6op.TextWrapped = true
+
+Antibanantilevae.Name = "Anti ban + anti levae"
+Antibanantilevae.Parent = TextLabel_3
+Antibanantilevae.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Antibanantilevae.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Antibanantilevae.BorderSizePixel = 5
+Antibanantilevae.Position = UDim2.new(0.824230969, 0, 2.82615376, 0)
+Antibanantilevae.Size = UDim2.new(0, 98, 0, 23)
+Antibanantilevae.Font = Enum.Font.SourceSans
+Antibanantilevae.Text = "Anti-Ban + Anti-Leave k00p"
+Antibanantilevae.TextColor3 = Color3.fromRGB(255, 255, 255)
+Antibanantilevae.TextScaled = true
+Antibanantilevae.TextSize = 14.000
+Antibanantilevae.TextWrapped = true
+
+MeshifyColorLooped.Name = "Meshify + Color Looped"
+MeshifyColorLooped.Parent = TextLabel_3
+MeshifyColorLooped.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+MeshifyColorLooped.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MeshifyColorLooped.BorderSizePixel = 5
+MeshifyColorLooped.Position = UDim2.new(-0.345769048, 0, 3.64615393, 0)
+MeshifyColorLooped.Size = UDim2.new(0, 98, 0, 23)
+MeshifyColorLooped.Font = Enum.Font.SourceSans
+MeshifyColorLooped.Text = "John Doe"
+MeshifyColorLooped.TextColor3 = Color3.fromRGB(255, 255, 255)
+MeshifyColorLooped.TextScaled = true
+MeshifyColorLooped.TextSize = 14.000
+MeshifyColorLooped.TextWrapped = true
+
+Alexnewtronify.Name = "Alexnewtronify"
+Alexnewtronify.Parent = TextLabel_3
+Alexnewtronify.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Alexnewtronify.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Alexnewtronify.BorderSizePixel = 5
+Alexnewtronify.Position = UDim2.new(0.244230956, 0, 2.08615398, 0)
+Alexnewtronify.Size = UDim2.new(0, 98, 0, 23)
+Alexnewtronify.Font = Enum.Font.SourceSans
+Alexnewtronify.Text = "Alexnewtronify"
+Alexnewtronify.TextColor3 = Color3.fromRGB(255, 255, 255)
+Alexnewtronify.TextScaled = true
+Alexnewtronify.TextSize = 14.000
+Alexnewtronify.TextWrapped = true
+
+KickAll.Name = "Kick All"
+KickAll.Parent = TextLabel_3
+KickAll.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+KickAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KickAll.BorderSizePixel = 5
+KickAll.Position = UDim2.new(0.824230969, 0, 3.64615393, 0)
+KickAll.Size = UDim2.new(0, 98, 0, 23)
+KickAll.Font = Enum.Font.SourceSans
+KickAll.Text = "Kick All"
+KickAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+KickAll.TextScaled = true
+KickAll.TextSize = 14.000
+KickAll.TextWrapped = true
+
+TextLabel_4.Parent = TextLabel_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.344999999, 0, 4.28000021, 0)
+TextLabel_4.Size = UDim2.new(0, 339, 0, 28)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "-- Guis Section --"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Enstriov2.Name = "Enstrio v2"
+Enstriov2.Parent = TextLabel_3
+Enstriov2.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Enstriov2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enstriov2.BorderSizePixel = 5
+Enstriov2.Position = UDim2.new(-0.310769051, 0, 5.08615398, 0)
+Enstriov2.Size = UDim2.new(0, 98, 0, 23)
+Enstriov2.Font = Enum.Font.SourceSans
+Enstriov2.Text = "Enstrio Gui V2"
+Enstriov2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Enstriov2.TextScaled = true
+Enstriov2.TextSize = 14.000
+Enstriov2.TextWrapped = true
+
+k00pguiv6.Name = "k00pgui v6"
+k00pguiv6.Parent = TextLabel_3
+k00pguiv6.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+k00pguiv6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+k00pguiv6.BorderSizePixel = 5
+k00pguiv6.Position = UDim2.new(0.254230946, 0, 5.08615398, 0)
+k00pguiv6.Size = UDim2.new(0, 98, 0, 23)
+k00pguiv6.Font = Enum.Font.SourceSans
+k00pguiv6.Text = "k00pgui v6"
+k00pguiv6.TextColor3 = Color3.fromRGB(255, 255, 255)
+k00pguiv6.TextScaled = true
+k00pguiv6.TextSize = 14.000
+k00pguiv6.TextWrapped = true
+
+Enstrioguiv3.Name = "Enstrio gui v3"
+Enstrioguiv3.Parent = TextLabel_3
+Enstrioguiv3.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Enstrioguiv3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enstrioguiv3.BorderSizePixel = 5
+Enstrioguiv3.Position = UDim2.new(0.794230938, 0, 5.08615398, 0)
+Enstrioguiv3.Size = UDim2.new(0, 98, 0, 23)
+Enstrioguiv3.Font = Enum.Font.SourceSans
+Enstrioguiv3.Text = "Enstrio Gui V3"
+Enstrioguiv3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Enstrioguiv3.TextScaled = true
+Enstrioguiv3.TextSize = 14.000
+Enstrioguiv3.TextWrapped = true
+
+GroveGuiV3.Name = "Grove Gui V3"
+GroveGuiV3.Parent = TextLabel_3
+GroveGuiV3.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+GroveGuiV3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GroveGuiV3.BorderSizePixel = 5
+GroveGuiV3.Position = UDim2.new(-0.310769051, 0, 5.82615376, 0)
+GroveGuiV3.Size = UDim2.new(0, 98, 0, 23)
+GroveGuiV3.Font = Enum.Font.SourceSans
+GroveGuiV3.Text = "Grove Gui V3"
+GroveGuiV3.TextColor3 = Color3.fromRGB(255, 255, 255)
+GroveGuiV3.TextScaled = true
+GroveGuiV3.TextSize = 14.000
+GroveGuiV3.TextWrapped = true
+
+KickGui.Name = "Kick Gui"
+KickGui.Parent = TextLabel_3
+KickGui.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+KickGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KickGui.BorderSizePixel = 5
+KickGui.Position = UDim2.new(0.254230946, 0, 5.82615376, 0)
+KickGui.Size = UDim2.new(0, 98, 0, 23)
+KickGui.Font = Enum.Font.SourceSans
+KickGui.Text = "Kick Gui"
+KickGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+KickGui.TextScaled = true
+KickGui.TextSize = 14.000
+KickGui.TextWrapped = true
+
+TeamFatGui.Name = "Team Fat Gui"
+TeamFatGui.Parent = TextLabel_3
+TeamFatGui.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+TeamFatGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeamFatGui.BorderSizePixel = 5
+TeamFatGui.Position = UDim2.new(0.824230969, 0, 5.82615376, 0)
+TeamFatGui.Size = UDim2.new(0, 98, 0, 23)
+TeamFatGui.Font = Enum.Font.SourceSans
+TeamFatGui.Text = "Team Fat Gui "
+TeamFatGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeamFatGui.TextScaled = true
+TeamFatGui.TextSize = 14.000
+TeamFatGui.TextWrapped = true
+
+c00lkiddguiv2.Name = "c00lkidd gui v2"
+c00lkiddguiv2.Parent = TextLabel_3
+c00lkiddguiv2.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+c00lkiddguiv2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddguiv2.BorderSizePixel = 5
+c00lkiddguiv2.Position = UDim2.new(-0.310769051, 0, 6.58615351, 0)
+c00lkiddguiv2.Size = UDim2.new(0, 98, 0, 23)
+c00lkiddguiv2.Font = Enum.Font.SourceSans
+c00lkiddguiv2.Text = "c00lkidd gui V2"
+c00lkiddguiv2.TextColor3 = Color3.fromRGB(255, 255, 255)
+c00lkiddguiv2.TextScaled = true
+c00lkiddguiv2.TextSize = 14.000
+c00lkiddguiv2.TextWrapped = true
+
+UTG.Name = "UTG"
+UTG.Parent = TextLabel_3
+UTG.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+UTG.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UTG.BorderSizePixel = 5
+UTG.Position = UDim2.new(0.244230956, 0, 6.58615351, 0)
+UTG.Size = UDim2.new(0, 98, 0, 23)
+UTG.Font = Enum.Font.SourceSans
+UTG.Text = "UTG"
+UTG.TextColor3 = Color3.fromRGB(255, 255, 255)
+UTG.TextScaled = true
+UTG.TextSize = 14.000
+UTG.TextWrapped = true
+
+fakenootnootscript.Name = "fake noot noot script"
+fakenootnootscript.Parent = TextLabel_3
+fakenootnootscript.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+fakenootnootscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fakenootnootscript.BorderSizePixel = 5
+fakenootnootscript.Position = UDim2.new(0.824230969, 0, 6.58615351, 0)
+fakenootnootscript.Size = UDim2.new(0, 98, 0, 23)
+fakenootnootscript.Font = Enum.Font.SourceSans
+fakenootnootscript.Text = "Fake Noot Noot Script"
+fakenootnootscript.TextColor3 = Color3.fromRGB(255, 255, 255)
+fakenootnootscript.TextScaled = true
+fakenootnootscript.TextSize = 14.000
+fakenootnootscript.TextWrapped = true
+
+Realnootnootscript.Name = "Real nootn oot script"
+Realnootnootscript.Parent = TextLabel_3
+Realnootnootscript.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Realnootnootscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Realnootnootscript.BorderSizePixel = 5
+Realnootnootscript.Position = UDim2.new(-0.345769048, 0, 7.28615379, 0)
+Realnootnootscript.Size = UDim2.new(0, 332, 0, 23)
+Realnootnootscript.Font = Enum.Font.SourceSans
+Realnootnootscript.Text = "Real Noot Noot Script ( deleted )"
+Realnootnootscript.TextColor3 = Color3.fromRGB(255, 255, 255)
+Realnootnootscript.TextScaled = true
+Realnootnootscript.TextSize = 14.000
+Realnootnootscript.TextWrapped = true
+
+TextLabel_5.Parent = TextLabel_3
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-0.38499999, 0, 8.03999996, 0)
+TextLabel_5.Size = UDim2.new(0, 339, 0, 28)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "-- Music Section --"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+InnaproriateAUDIo.Name = "Innaproriate AUDIo"
+InnaproriateAUDIo.Parent = TextLabel_3
+InnaproriateAUDIo.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+InnaproriateAUDIo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InnaproriateAUDIo.BorderSizePixel = 5
+InnaproriateAUDIo.Position = UDim2.new(-0.345769048, 0, 8.82615376, 0)
+InnaproriateAUDIo.Size = UDim2.new(0, 98, 0, 23)
+InnaproriateAUDIo.Font = Enum.Font.SourceSans
+InnaproriateAUDIo.Text = "Innapropriate Bypassed Audio"
+InnaproriateAUDIo.TextColor3 = Color3.fromRGB(255, 255, 255)
+InnaproriateAUDIo.TextScaled = true
+InnaproriateAUDIo.TextSize = 14.000
+InnaproriateAUDIo.TextWrapped = true
+
+Phonk.Name = "Phonk"
+Phonk.Parent = TextLabel_3
+Phonk.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Phonk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Phonk.BorderSizePixel = 5
+Phonk.Position = UDim2.new(0.254230946, 0, 8.82615376, 0)
+Phonk.Size = UDim2.new(0, 98, 0, 23)
+Phonk.Font = Enum.Font.SourceSans
+Phonk.Text = "Phonk"
+Phonk.TextColor3 = Color3.fromRGB(255, 255, 255)
+Phonk.TextScaled = true
+Phonk.TextSize = 14.000
+Phonk.TextWrapped = true
+
+Phonk2.Name = "Phonk 2"
+Phonk2.Parent = TextLabel_3
+Phonk2.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Phonk2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Phonk2.BorderSizePixel = 5
+Phonk2.Position = UDim2.new(0.824230969, 0, 8.82615376, 0)
+Phonk2.Size = UDim2.new(0, 98, 0, 23)
+Phonk2.Font = Enum.Font.SourceSans
+Phonk2.Text = "Phonk 2"
+Phonk2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Phonk2.TextScaled = true
+Phonk2.TextSize = 14.000
+Phonk2.TextWrapped = true
+
+NootNootSound.Name = "Noot Noot Sound"
+NootNootSound.Parent = TextLabel_3
+NootNootSound.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+NootNootSound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NootNootSound.BorderSizePixel = 5
+NootNootSound.Position = UDim2.new(-0.345769048, 0, 9.60615349, 0)
+NootNootSound.Size = UDim2.new(0, 98, 0, 23)
+NootNootSound.Font = Enum.Font.SourceSans
+NootNootSound.Text = "Noot Noot Sound"
+NootNootSound.TextColor3 = Color3.fromRGB(255, 255, 255)
+NootNootSound.TextScaled = true
+NootNootSound.TextSize = 14.000
+NootNootSound.TextWrapped = true
+
+KillAll.Name = "Kill All"
+KillAll.Parent = TextLabel_3
+KillAll.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+KillAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAll.BorderSizePixel = 5
+KillAll.Position = UDim2.new(0.254230946, 0, 3.64615393, 0)
+KillAll.Size = UDim2.new(0, 98, 0, 23)
+KillAll.Font = Enum.Font.SourceSans
+KillAll.Text = "Kill All"
+KillAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.TextScaled = true
+KillAll.TextSize = 14.000
+KillAll.TextWrapped = true
+
+Arabmsuc.Name = "Arab msuc"
+Arabmsuc.Parent = TextLabel_3
+Arabmsuc.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+Arabmsuc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Arabmsuc.BorderSizePixel = 5
+Arabmsuc.Position = UDim2.new(0.819230974, 0, 9.60615349, 0)
+Arabmsuc.Size = UDim2.new(0, 98, 0, 23)
+Arabmsuc.Font = Enum.Font.SourceSans
+Arabmsuc.Text = "Arab Music"
+Arabmsuc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arabmsuc.TextScaled = true
+Arabmsuc.TextSize = 14.000
+Arabmsuc.TextWrapped = true
+
+BossJKLOsTheem.Name = "BossJKLOs Theem"
+BossJKLOsTheem.Parent = TextLabel_3
+BossJKLOsTheem.BackgroundColor3 = Color3.fromRGB(165, 0, 0)
+BossJKLOsTheem.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BossJKLOsTheem.BorderSizePixel = 5
+BossJKLOsTheem.Position = UDim2.new(0.239230961, 0, 9.60615349, 0)
+BossJKLOsTheem.Size = UDim2.new(0, 98, 0, 23)
+BossJKLOsTheem.Font = Enum.Font.SourceSans
+BossJKLOsTheem.Text = "BossJKLOs Theme"
+BossJKLOsTheem.TextColor3 = Color3.fromRGB(255, 255, 255)
+BossJKLOsTheem.TextScaled = true
+BossJKLOsTheem.TextSize = 14.000
+BossJKLOsTheem.TextWrapped = true
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- nil.FakeMouse
+	local script = Instance.new('ModuleScript', nil)
+	script.Name = "FakeMouse"
+	local function module_script()
+		local Converter = {}
+		script.Client.Disabled = false -- enables the client
+		
+		
+		Converter.LocalPlayer = nil
+		local Plr = nil -- temp
+		
+		
+		script.GetPlr.OnServerEvent:Connect(function(Plrr)
+			Plr = Plrr
+		end)
+		
+		
+		
+		-- A LIST OF ALL FUNCTIONS / EVENTS / PROPERTIES --
+		
+		repeat wait() until Plr
+		
+		function Converter:GetPlr()
+			return script.GetPlrE:InvokeClient(Plr)
+		end
+		
+		
+		Converter.LocalPlayer = Plr
+		
+		return Converter
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function KEHT_fake_script() -- Jumpscare.Script 
+	local script = Instance.new('Script', Jumpscare)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+				spawn(function()
+					local newgui = Instance.new("ScreenGui",v.PlayerGui)
+					newgui.Name = "Screamer"
+					local newimage = Instance.new("ImageLabel",newgui)
+					newimage.Image = "http://www.roblox.com/asset/?id=10760465828"
+					newimage.Size = UDim2.new(1,1,1,1)
+					local s = Instance.new("Sound",newgui)
+					s.SoundId = "rbxassetid://9069609200"
+					s.Volume = 9999999999999999999999999999999999999
+					s.Looped = true
+					s:Play()
+					print("Screamed "..v.Name)
+					while wait(9) do
+	
+						newimage.Parent:Destroy()
+	
+					end
+				end)
+			end
+		end
+	end)
+end
+coroutine.wrap(KEHT_fake_script)()
+local function EXVNPAI_fake_script() -- Particles.Script 
+	local script = Instance.new('Script', Particles)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=10760465828"
+			emit.VelocitySpread = 100000
+		end
+		end)
+end
+coroutine.wrap(EXVNPAI_fake_script)()
+local function QGOWKOQ_fake_script() -- Sky.Script 
+	local script = Instance.new('Script', Sky)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=10760465828"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=10760465828"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=10760465828"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=10760465828"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=10760465828"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=10760465828"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(QGOWKOQ_fake_script)()
+local function NBHTHK_fake_script() -- Decal.Script 
+	local script = Instance.new('Script', Decal)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=10760465828" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=10760465828"
+					Two.Texture = "http://www.roblox.com/asset/?id=10760465828"
+					Three.Texture = "http://www.roblox.com/asset/?id=10760465828"
+					Four.Texture = "http://www.roblox.com/asset/?id=10760465828"
+					Five.Texture = "http://www.roblox.com/asset/?id=10760465828"
+					Six.Texture = "http://www.roblox.com/asset/?id=10760465828"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(NBHTHK_fake_script)()
+local function RQPJE_fake_script() -- Hint.Script 
+	local script = Instance.new('Script', Hint)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local m = Instance.new("Hint", game.workspace)
+		m.Text = "Team Arab Join Today!"
+	end)
+end
+coroutine.wrap(RQPJE_fake_script)()
+local function RLEQPHU_fake_script() -- Message.Script 
+	local script = Instance.new('Script', Message)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local m = Instance.new("Message", game.workspace)
+		m.Text = "Team Arab Had Monked Your Game!"
+	end)
+end
+coroutine.wrap(RLEQPHU_fake_script)()
+local function LTGL_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(LTGL_fake_script)()
+local function VWSX_fake_script() -- Speed.Script 
+	local script = Instance.new('Script', Speed)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Down:Connect(function()
+		for i,p in pairs(game:GetService("Players"):GetChildren()) do
+			if p.ClassName == "Player" then
+				p.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = 100
+			end
+	
+		end
+	end)
+end
+coroutine.wrap(VWSX_fake_script)()
+local function IVEE_fake_script() -- _666.Script 
+	local script = Instance.new('Script', _666)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in next,workspace:children''do
+			if(v:IsA'BasePart')then
+				me=v;
+				bbg=Instance.new('BillboardGui',me);
+				bbg.Name='stuf';
+				bbg.Adornee=me;
+				bbg.Size=UDim2.new(2.5,0,2.5,0)
+				--bbg.StudsOffset=Vector3.new(0,2,0)
+				tlb=Instance.new'TextLabel';
+				tlb.Text='666 666 666 666 666 666';
+				tlb.Font='SourceSansBold';
+				tlb.FontSize='Size48';
+				tlb.TextColor3=Color3.new(1,0,0);
+				tlb.Size=UDim2.new(1.25,0,1.25,0);
+				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
+				tlb.BackgroundTransparency=1;
+				tlb.Parent=bbg;
+			end;end;
+		function xds(dd)
+			for i,v in next,dd:children''do
+				if(v:IsA'BasePart')then
+					v.BrickColor=BrickColor.new'Really black';
+					v.TopSurface='Smooth';
+					v.BottomSurface='Smooth';
+					s=Instance.new('SelectionBox',v);
+					s.Adornee=v;
+					s.Color=BrickColor.new'Really red';
+					a=Instance.new('PointLight',v);
+					a.Color=Color3.new(1,0,0);
+					a.Range=15;
+					a.Brightness=5;
+					f=Instance.new('Fire',v);
+					f.Size=19;
+					f.Heat=22;
+				end;
+	
+				local dec = 'http://www.roblox.com/asset/?id=19399245';
+				local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
+				--coroutine.wrap(function()
+				--for ,_ in pairs(fac) do
+				--local ddec = Instance.new("Decal", v)
+				--ddec.Face = 
+				--ddec.Texture = dec
+				--end end)()
+				if #(v:GetChildren())>0 then
+					xds(v) 
+				end
+			end
+		end
+		xds(game.Workspace)
+	end)
+	
+end
+coroutine.wrap(IVEE_fake_script)()
+local function MOUM_fake_script() -- Saudify.Script 
+	local script = Instance.new('Script', Saudify)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=232352053" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=232352053"
+					Two.Texture = "http://www.roblox.com/asset/?id=232352053"
+					Three.Texture = "http://www.roblox.com/asset/?id=232352053"
+					Four.Texture = "http://www.roblox.com/asset/?id=232352053"
+					Five.Texture = "http://www.roblox.com/asset/?id=232352053"
+					Six.Texture = "http://www.roblox.com/asset/?id=232352053"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(MOUM_fake_script)()
+local function UDKUIR_fake_script() -- Saudify.Script 
+	local script = Instance.new('Script', Saudify)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=232352053"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=232352053"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=232352053"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=232352053"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=232352053"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=232352053"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(UDKUIR_fake_script)()
+local function AMKIJFL_fake_script() -- Saudify.Script 
+	local script = Instance.new('Script', Saudify)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=232352053"
+			emit.VelocitySpread = 100000
+		end
+		end)
+end
+coroutine.wrap(AMKIJFL_fake_script)()
+local function BBVDWVC_fake_script() -- MLGTheme.Script 
+	local script = Instance.new('Script', MLGTheme)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://6819593773"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(BBVDWVC_fake_script)()
+local function IARXJD_fake_script() -- R6.Script 
+	local script = Instance.new('Script', R6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(3436957371):r6(plr.name)
+	end)
+	
+end
+coroutine.wrap(IARXJD_fake_script)()
+local function WCGFZIS_fake_script() -- R6.LocalScript 
+	local script = Instance.new('LocalScript', R6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(WCGFZIS_fake_script)()
+local function AKTA_fake_script() -- Popup.Script 
+	local script = Instance.new('Script', Popup)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Down:Connect(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			while true do
+				wait(0.4)
+				local kill = Instance.new("ScreenGui",v.PlayerGui)
+				local kill2 = Instance.new("ImageLabel",kill)
+				kill2.Size = UDim2.new(0,400,0,345)
+				kill2.Position = UDim2.new(0,math.random(1,1000),0,math.random(1,1000))
+				kill2.Image = "rbxassetid://10760465828"
+			end
+		end
+	end)
+end
+coroutine.wrap(AKTA_fake_script)()
+local function VHOEOGQ_fake_script() -- Popup.LocalScript 
+	local script = Instance.new('LocalScript', Popup)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VHOEOGQ_fake_script)()
+local function SHJHVFR_fake_script() -- Kennyfy.Script 
+	local script = Instance.new('Script', Kennyfy)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=13427274879" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=13427274879"
+					Two.Texture = "http://www.roblox.com/asset/?id=13427274879"
+					Three.Texture = "http://www.roblox.com/asset/?id=13427274879"
+					Four.Texture = "http://www.roblox.com/asset/?id=13427274879"
+					Five.Texture = "http://www.roblox.com/asset/?id=13427274879"
+					Six.Texture = "http://www.roblox.com/asset/?id=13427274879"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(SHJHVFR_fake_script)()
+local function PGEF_fake_script() -- Kennyfy.Script 
+	local script = Instance.new('Script', Kennyfy)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=13427274879"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=13427274879"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=13427274879"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=13427274879"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=13427274879"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=13427274879"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(PGEF_fake_script)()
+local function PTOSDZN_fake_script() -- Kennyfy.Script 
+	local script = Instance.new('Script', Kennyfy)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=13427274879"
+			emit.VelocitySpread = 100000
+		end
+		end)
+end
+coroutine.wrap(PTOSDZN_fake_script)()
+local function LJZCJOJ_fake_script() -- CafeMusic.Script 
+	local script = Instance.new('Script', CafeMusic)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://1836403222"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(LJZCJOJ_fake_script)()
+local function NWQZAJ_fake_script() -- K00pkiddRealm.Script 
+	local script = Instance.new('Script', K00pkiddRealm)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(9821168174)(plr.name)
+	end)
+	
+end
+coroutine.wrap(NWQZAJ_fake_script)()
+local function TRUQXCV_fake_script() -- K00pkiddRealm.LocalScript 
+	local script = Instance.new('LocalScript', K00pkiddRealm)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(TRUQXCV_fake_script)()
+local function OQXHBAT_fake_script() -- Antibanantilevae.ServerEventHandler 
+	local script = Instance.new('Script', Antibanantilevae)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:connect(function()
+		require(12507245664)()
+	end)
+end
+coroutine.wrap(OQXHBAT_fake_script)()
+-- nil.Client is disabled.
+local function ECSICXT_fake_script() -- Antibanantilevae.Script 
+	local script = Instance.new('Script', Antibanantilevae)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(5004222221).load('oh man, i sure do love team k00pkidd!',{'bruh'})
+	end)
+end
+coroutine.wrap(ECSICXT_fake_script)()
+local function CTEOA_fake_script() -- Antibanantilevae.LocalScript 
+	local script = Instance.new('LocalScript', Antibanantilevae)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(CTEOA_fake_script)()
+local function JWTTJ_fake_script() -- MeshifyColorLooped.Script 
+	local script = Instance.new('Script', MeshifyColorLooped)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(2845929020).ooga(plr.name)
+	end)
+	
+end
+coroutine.wrap(JWTTJ_fake_script)()
+local function NAFWU_fake_script() -- MeshifyColorLooped.LocalScript 
+	local script = Instance.new('LocalScript', MeshifyColorLooped)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(NAFWU_fake_script)()
+local function TGUSSO_fake_script() -- Alexnewtronify.Script 
+	local script = Instance.new('Script', Alexnewtronify)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=12418322793" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=12418322793"
+					Two.Texture = "http://www.roblox.com/asset/?id=12418322793"
+					Three.Texture = "http://www.roblox.com/asset/?id=12418322793"
+					Four.Texture = "http://www.roblox.com/asset/?id=12418322793"
+					Five.Texture = "http://www.roblox.com/asset/?id=12418322793"
+					Six.Texture = "http://www.roblox.com/asset/?id=12418322793"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(TGUSSO_fake_script)()
+local function ZPPAGQQ_fake_script() -- Alexnewtronify.Script 
+	local script = Instance.new('Script', Alexnewtronify)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=12418322793"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=12418322793"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=12418322793"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=12418322793"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=12418322793"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=12418322793"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(ZPPAGQQ_fake_script)()
+local function LXSJAX_fake_script() -- Alexnewtronify.Script 
+	local script = Instance.new('Script', Alexnewtronify)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=12418322793"
+			emit.VelocitySpread = 100000
+		end
+		end)
+end
+coroutine.wrap(LXSJAX_fake_script)()
+local function TQIFE_fake_script() -- KickAll.Script 
+	local script = Instance.new('Script', KickAll)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(12507628531).Kick(plr.name)
+	end)
+	
+end
+coroutine.wrap(TQIFE_fake_script)()
+local function VQPE_fake_script() -- KickAll.LocalScript 
+	local script = Instance.new('LocalScript', KickAll)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(VQPE_fake_script)()
+local function ZLNQOVY_fake_script() -- Enstriov2.Script 
+	local script = Instance.new('Script', Enstriov2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14085617275).ProblemUser(plr.Name)
+	end)
+	
+end
+coroutine.wrap(ZLNQOVY_fake_script)()
+local function YPUV_fake_script() -- Enstriov2.LocalScript 
+	local script = Instance.new('LocalScript', Enstriov2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(YPUV_fake_script)()
+local function NKKUWYS_fake_script() -- Enstrioguiv3.Script 
+	local script = Instance.new('Script', Enstrioguiv3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14922216323).MUL(plr.Name)
+	end)
+	
+end
+coroutine.wrap(NKKUWYS_fake_script)()
+local function DGEMLU_fake_script() -- Enstrioguiv3.LocalScript 
+	local script = Instance.new('LocalScript', Enstrioguiv3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(DGEMLU_fake_script)()
+local function FZJRHPI_fake_script() -- GroveGuiV3.Script 
+	local script = Instance.new('Script', GroveGuiV3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(15350000004).Grove(plr.Name)
+	end)
+	
+end
+coroutine.wrap(FZJRHPI_fake_script)()
+local function BWTFUCV_fake_script() -- GroveGuiV3.LocalScript 
+	local script = Instance.new('LocalScript', GroveGuiV3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(BWTFUCV_fake_script)()
+local function HBYTBG_fake_script() -- KickGui.LocalScript 
+	local script = Instance.new('LocalScript', KickGui)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(HBYTBG_fake_script)()
+local function LJPW_fake_script() -- KickGui.Script 
+	local script = Instance.new('Script', KickGui)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(7004742023).Kick(plr.Name)
+	end)
+	
+end
+coroutine.wrap(LJPW_fake_script)()
+local function RJLR_fake_script() -- TeamFatGui.Script 
+	local script = Instance.new('Script', TeamFatGui)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(14940596979).fat(plr.Name)
+	end)
+	
+end
+coroutine.wrap(RJLR_fake_script)()
+local function GELHS_fake_script() -- TeamFatGui.LocalScript 
+	local script = Instance.new('LocalScript', TeamFatGui)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GELHS_fake_script)()
+local function GCIUWHK_fake_script() -- c00lkiddguiv2.LocalScript 
+	local script = Instance.new('LocalScript', c00lkiddguiv2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GCIUWHK_fake_script)()
+local function OJYEH_fake_script() -- c00lkiddguiv2.Script 
+	local script = Instance.new('Script', c00lkiddguiv2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(12621812058).yeskido(plr.Name)
+	end)
+	
+end
+coroutine.wrap(OJYEH_fake_script)()
+local function GUKQCR_fake_script() -- UTG.LocalScript 
+	local script = Instance.new('LocalScript', UTG)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(GUKQCR_fake_script)()
+local function YOFNY_fake_script() -- UTG.Script 
+	local script = Instance.new('Script', UTG)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(13346447411)(plr.Name)
+	end)
+	
+end
+coroutine.wrap(YOFNY_fake_script)()
+local function NWQBDFF_fake_script() -- fakenootnootscript.LocalScript 
+	local script = Instance.new('LocalScript', fakenootnootscript)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.RemoteEvent:FireServer()
+	end)
+end
+coroutine.wrap(NWQBDFF_fake_script)()
+local function XHPFR_fake_script() -- fakenootnootscript.Script 
+	local script = Instance.new('Script', fakenootnootscript)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+		require(4661083363).eliza()
+	end)
+	
+end
+coroutine.wrap(XHPFR_fake_script)()
+local function AEQZ_fake_script() -- InnaproriateAUDIo.Script 
+	local script = Instance.new('Script', InnaproriateAUDIo)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://2505232058"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(AEQZ_fake_script)()
+local function IPZYVWI_fake_script() -- Phonk.Script 
+	local script = Instance.new('Script', Phonk)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://6868100434"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(IPZYVWI_fake_script)()
+local function NBZI_fake_script() -- Phonk2.Script 
+	local script = Instance.new('Script', Phonk2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://193491628"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(NBZI_fake_script)()
+local function PVCDJ_fake_script() -- NootNootSound.Script 
+	local script = Instance.new('Script', NootNootSound)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://6896624865"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(PVCDJ_fake_script)()
+local function RKDJKUY_fake_script() -- KillAll.Script 
+	local script = Instance.new('Script', KillAll)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			v.Character.Humanoid.Health = 0
+		end
+	end)
+	
+	
+	-- script by budaloaf [butterloaf] a.k.a AMBATUKAM OH SHITTTTTTTTTTTTTT
+end
+coroutine.wrap(RKDJKUY_fake_script)()
+local function GEXFQ_fake_script() -- Arabmsuc.Script 
+	local script = Instance.new('Script', Arabmsuc)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://247893371"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(GEXFQ_fake_script)()
+local function LDDAS_fake_script() -- BossJKLOsTheem.Script 
+	local script = Instance.new('Script', BossJKLOsTheem)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://1836965675 "
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(LDDAS_fake_script)()
+local function QFCS_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(QFCS_fake_script)()
