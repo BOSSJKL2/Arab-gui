@@ -59,7 +59,7 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(108, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 5
-Frame.Position = UDim2.new(-0.07, 0, 0, 0)
+Frame.Position = UDim2.new(-0.05, 0, 0, 0)
 Frame.Size = UDim2.new(0, 364, 0, 304)
 
 TextLabel.Parent = Frame
